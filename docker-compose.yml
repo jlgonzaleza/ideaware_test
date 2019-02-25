@@ -1,0 +1,14 @@
+
+version: "3.2"
+
+services:
+  db:
+    image: mysql/mysql-server:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ideaware2019
+      MYSQL_PASSWORD: ideaware2019
+      MYSQL_USER: ideaware
+      MYSQL_DATABASE: ideaware
+    ports:
+      - "3306:3306"
+

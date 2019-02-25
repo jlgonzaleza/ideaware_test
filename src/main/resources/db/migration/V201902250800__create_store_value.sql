@@ -1,0 +1,6 @@
+ CREATE TABLE IF NOT EXISTS `store_value` (
+  `id` BIGINT(20) NOT NULL AUTO_INCREMENT,
+  `item_order` BIGINT(20),
+  `item_value` VARCHAR(255) NULL DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);

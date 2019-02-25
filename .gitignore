@@ -21,3 +21,20 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Build Unwanted
+.gradle
+build
+/target/**
+/out/**
+target
+.idea
+
+# Intellij
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+

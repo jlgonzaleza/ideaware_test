@@ -1,0 +1,29 @@
+logging:
+  level:
+    org.springframework.web: INFO
+    com.ideaware: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+
+spring:
+  application:
+    name: ideaware_test
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/ideaware
+    username: ideaware
+    password: ideaware2019
+
+  flyway:
+    enabled: true
+    out-of-order: true
+    ignore-missing-migrations: true
+    validate-on-migrate: true
+
+inst:
+  storevalue:
+    maxAllowValues: 5
